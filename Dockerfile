@@ -29,7 +29,7 @@ LABEL org.opencontainers.image.title="Rng Elixir"
 LABEL org.opencontainers.image.url=https://hub.docker.com/u/conradwt/rng-elixir
 LABEL org.opencontainers.image.source=https://github.com/conradwt/rng-elixir
 LABEL org.opencontainers.image.licenses=MIT
-LABEL com.conradtaylor.ruby_version=$ELIXIR_VERSION
+LABEL com.conradtaylor.elixir_version=$ELIXIR_VERSION
 
 # install build dependencies
 RUN apt-get update -y && apt-get install -y build-essential git \
