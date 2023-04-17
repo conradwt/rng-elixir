@@ -9,6 +9,7 @@ import Config
 
 # Configures the endpoint
 config :rng, RngWeb.Endpoint,
+  adapter: Bandit.PhoenixAdapter,
   url: [host: "localhost"],
   render_errors: [
     formats: [json: RngWeb.ErrorJSON],
