@@ -38,7 +38,6 @@ defmodule Rng.MixProject do
       {:telemetry_poller, "~> 1.0.0"},
       {:gettext, "~> 0.22.1"},
       {:jason, "~> 1.4.0"},
-      # {:plug_cowboy, "~> 2.6.1"},
       {:bandit, ">= 0.7.7"},
       {:credo, "~> 1.7", only: [:dev, :test], runtime: false}
     ]
