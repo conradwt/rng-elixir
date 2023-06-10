@@ -38,7 +38,7 @@ defmodule Rng.MixProject do
       {:telemetry_poller, "~> 1.0.0"},
       {:gettext, "~> 0.22.2"},
       {:jason, "~> 1.4.0"},
-      {:bandit, "~> 1.0.0-pre.5"},
+      {:bandit, "~> 1.0.0-pre.6"},
       {:credo, "~> 1.7.0", only: [:dev, :test], runtime: false}
     ]
   end
