@@ -5,7 +5,7 @@ defmodule Rng.MixProject do
     [
       app: :rng,
       version: "0.1.0",
-      elixir: "~> 1.15.1",
+      elixir: "~> 1.15.2",
       elixirc_paths: elixirc_paths(Mix.env()),
       start_permanent: Mix.env() == :prod,
       aliases: aliases(),
@@ -36,7 +36,7 @@ defmodule Rng.MixProject do
       {:phoenix_live_dashboard, "~> 0.8.0"},
       {:telemetry_metrics, "~> 0.6.1"},
       {:telemetry_poller, "~> 1.0.0"},
-      {:gettext, "~> 0.22.2"},
+      {:gettext, "~> 0.22.3"},
       {:jason, "~> 1.4.0"},
       {:bandit, "~> 1.0.0-pre.10"},
       {:credo, "~> 1.7.0", only: [:dev, :test], runtime: false}
