@@ -6,7 +6,7 @@ defmodule RngWeb.RngController do
     |> send_resp(200, "RNG running on #{:net_adm.localhost()}\n")
   end
 
-  def create(conn, %{"how_many_bytes" => how_many_bytes}) do
+  def rng(conn, %{"how_many_bytes" => how_many_bytes}) do
     # simulate a bit of delay.
     Process.sleep(100)
 
