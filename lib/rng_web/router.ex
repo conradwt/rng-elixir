@@ -9,7 +9,7 @@ defmodule RngWeb.Router do
     pipe_through :api
 
     get "/", RngController, :index
-    post "/:how_many_bytes", RngController, :create
+    get "/:how_many_bytes", RngController, :rng
   end
 
   # Enable LiveDashboard in development
