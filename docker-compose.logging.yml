@@ -1,0 +1,11 @@
+services:
+  rng:
+    build: .
+    env_file:
+      - .env.dev
+    ports:
+      - '8001:80'
+    logging:
+      driver: gelf
+      options:
+        gelf-address: udp://localhost:12201

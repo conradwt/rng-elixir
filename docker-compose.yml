@@ -1,0 +1,7 @@
+services:
+  rng:
+    build: .
+    env_file:
+      - .env.dev
+    ports:
+      - '8001:80'
