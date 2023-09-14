@@ -1,0 +1,8 @@
+services:
+  rng:
+    build: .
+    env_file:
+      - .env.dev
+    image: ${REGISTRY}/rng-elixir/${COLON_TAG}
+    ports:
+      - '8001:80'
