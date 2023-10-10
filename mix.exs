@@ -32,13 +32,13 @@ defmodule Rng.MixProject do
   # Type `mix help deps` for examples and options.
   defp deps do
     [
-      {:phoenix, "~> 1.7.7"},
+      {:phoenix, "~> 1.7.8"},
       {:phoenix_live_dashboard, "~> 0.8.2"},
       {:telemetry_metrics, "~> 0.6.1"},
       {:telemetry_poller, "~> 1.0.0"},
       {:gettext, "~> 0.22.3"},
       {:jason, "~> 1.4.1"},
-      {:bandit, "~> 1.0.0-pre.16"},
+      {:bandit, "~> 1.0.0-pre.17"},
       {:credo, "~> 1.7.1", only: [:dev, :test], runtime: false}
     ]
   end
