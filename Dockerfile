@@ -1,3 +1,5 @@
+# syntax=docker/dockerfile:1
+
 # Find eligible builder and runner images on Docker Hub. We use Ubuntu/Debian instead of
 # Alpine to avoid DNS resolution issues in production.
 #
