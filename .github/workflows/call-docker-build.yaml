@@ -41,8 +41,8 @@ jobs:
 
       # Only needed if with:dockerhub-enable is true below
       # https://hub.docker.com/settings/security
-      # dockerhub-username: ${{ secrets.DOCKERHUB_USERNAME }}
-      # dockerhub-token: ${{ secrets.DOCKERHUB_TOKEN }}
+      dockerhub-username: ${{ secrets.DOCKERHUB_USERNAME }}
+      dockerhub-token: ${{ secrets.DOCKERHUB_TOKEN }}
 
     with:
       # NOTE: there are lots of input options for this reusable workflow
