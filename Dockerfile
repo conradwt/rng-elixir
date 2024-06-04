@@ -14,14 +14,17 @@
 #   - https://pkgs.org/ - resource for finding needed packages
 #   - Ex: hexpm/elixir:1.14.2-erlang-25.1.2-debian-bullseye-20221004-slim
 #
-ARG ELIXIR_VERSION=1.17.0-rc.0
+ARG ELIXIR_VERSION=1.17.0-rc.1
 ARG OTP_VERSION=27.0
 ARG DEBIAN_VERSION=bullseye-20240513-slim
 
 ARG BUILDER_IMAGE="hexpm/elixir:${ELIXIR_VERSION}-erlang-${OTP_VERSION}-debian-${DEBIAN_VERSION}"
 ARG RUNNER_IMAGE="debian:${DEBIAN_VERSION}"
 
-FROM ${BUILDER_IMAGE} as builder
+FROM --platform=$BUILDPLATFORM ${BUILDER_IMAGE} as builder
+
+ARG TARGETPLATFORM
+ARG BUILDPLATFORM
 
 # labels from https://github.com/opencontainers/image-spec/blob/master/annotations.md
 LABEL org.opencontainers.image.authors=conradwt@gmail.com
