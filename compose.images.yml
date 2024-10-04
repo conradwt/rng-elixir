@@ -1,10 +1,9 @@
 services:
   rng:
-    # build: .
+    build: .
     env_file:
       - .env.dev
-    # image: ${REGISTRY}/rng-elixir/${TAG}
-    image: conradwt/rng-elixir:v0.2.0
+    image: ${REGISTRY}/rng-elixir/${TAG}
     platform: linux/arm64
     ports:
       - '8001:80'
