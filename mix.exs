@@ -39,7 +39,7 @@ defmodule Rng.MixProject do
       {:gettext, "~> 0.22.3"},
       {:jason, "~> 1.4.4"},
       {:bandit, "~> 1.3.0"},
-      {:credo, "~> 1.7.8", only: [:dev, :test], runtime: false}
+      {:credo, "~> 1.7.10", only: [:dev, :test], runtime: false}
     ]
   end
 
