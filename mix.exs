@@ -33,7 +33,7 @@ defmodule Rng.MixProject do
   defp deps do
     [
       {:phoenix, "~> 1.7.14"},
-      {:phoenix_live_dashboard, "~> 0.8.4"},
+      {:phoenix_live_dashboard, "~> 0.8.5"},
       {:telemetry_metrics, "~> 0.6.1"},
       {:telemetry_poller, "~> 1.0.0"},
       {:gettext, "~> 0.22.3"},
