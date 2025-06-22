@@ -9,8 +9,7 @@ defmodule Rng.MixProject do
       elixirc_paths: elixirc_paths(Mix.env()),
       start_permanent: Mix.env() == :prod,
       aliases: aliases(),
-      deps: deps(),
-      compilers: [:yecc] ++ Mix.compilers()
+      deps: deps()
     ]
   end
 
