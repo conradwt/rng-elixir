@@ -23,4 +23,4 @@ Rng is released under the [MIT license](./LICENSE.md).
 
 ## Copyright
 
-Copyright &copy; 2022 - 2024 Conrad Taylor. All rights reserved.
+Copyright &copy; 2022 - 2025 Conrad Taylor. All rights reserved.
