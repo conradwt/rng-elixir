@@ -5,7 +5,7 @@ defmodule Rng.MixProject do
     [
       app: :rng,
       version: "0.2.0",
-      elixir: "~> 1.19.4",
+      elixir: "~> 1.19.5",
       elixirc_paths: elixirc_paths(Mix.env()),
       start_permanent: Mix.env() == :prod,
       aliases: aliases(),
@@ -39,7 +39,7 @@ defmodule Rng.MixProject do
       {:gettext, "~> 0.22.3"},
       {:jason, "~> 1.4.4"},
       {:bandit, "~> 1.3.0"},
-      {:credo, "~> 1.7.11", only: [:dev, :test], runtime: false}
+      {:credo, "~> 1.7.15", only: [:dev, :test], runtime: false}
     ]
   end
 
