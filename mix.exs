@@ -5,7 +5,7 @@ defmodule Rng.MixProject do
     [
       app: :rng,
       version: "0.2.0",
-      elixir: "~> 1.19.5",
+      elixir: "~> 1.20.3",
       elixirc_paths: elixirc_paths(Mix.env()),
       start_permanent: Mix.env() == :prod,
       aliases: aliases(),
@@ -32,14 +32,14 @@ defmodule Rng.MixProject do
   # Type `mix help deps` for examples and options.
   defp deps do
     [
-      {:phoenix, "~> 1.7.21"},
+      {:phoenix, "~> 1.7.24"},
       {:phoenix_live_dashboard, "~> 0.8.6"},
       {:telemetry_metrics, "~> 0.6.1"},
       {:telemetry_poller, "~> 1.0.0"},
       {:gettext, "~> 0.22.3"},
-      {:jason, "~> 1.4.4"},
+      {:jason, "~> 1.4.5"},
       {:bandit, "~> 1.3.0"},
-      {:credo, "~> 1.7.18", only: [:dev, :test], runtime: false}
+      {:credo, "~> 1.7.19", only: [:dev, :test], runtime: false}
     ]
   end
 
